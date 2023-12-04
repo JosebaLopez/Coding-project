@@ -1,0 +1,79 @@
+.main-section {
+    height: 620px;
+    background: radial-gradient(circle at top, #4c4f5a, #161b24);
+    color: #cbcbcb;
+    padding: 0px 0px 20px 49px;
+}
+
+
+.main-section > .column-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 96px;
+}
+
+.main-section > .column-wrapper > .left-main-column {
+    width: 600px;
+}
+
+.main-section > .column-wrapper > .left-main-column > .text-content > .first-paragraph p {
+    font-weight: 300;
+    font-size: 2.25rem;
+}
+
+.main-section > .column-wrapper > .left-main-column > .text-content > .second-paragraph p {
+    font-size: 1.75rem;
+}
+
+.main-section > .column-wrapper > .left-main-column > .text-content > .text-boxes {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 523px;
+}
+
+.main-section > .column-wrapper > .left-main-column > .text-content > .text-boxes > .Sign-box {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0px;
+    color: black;
+    background-color: mediumseagreen;
+    border: solid transparent;
+    border-radius: 4px;
+    width: 275px;
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+.main-section > .column-wrapper > .left-main-column > .text-content > .text-boxes > .learn-box {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0px;
+    color: white;
+    background-color: black;
+    border: solid transparent;
+    border-radius: 4px;
+    width: 217px;
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+.main-section > .column-wrapper > .right-main-column > .right-column-wrapper > .image-wrapper img {
+    height: 500px;
+    width: [object Object]px; 
+    height: [object Object]px;  
+    border: solid #BDBDBD 0;
+    border-radius: 4px;
+    box-shadow: 5px 5px 100px rgba(0, 0, 0, 1)  ; 
+    -webkit-box-shadow: 5px 5px 100px rgba(0, 0, 0, 1)  ; 
+    -moz-box-shadow: 5px 5px 100px rgba(0, 0, 0, )  ; 
+
+}
+
+.main-section > .column-wrapper > .right-main-column > .right-column-wrapper > .img-header {
+    color: white;
+    margin: 33px 0px 10px 10px;
+    font-size: 1.25rem;
+    font-weight: 800;
+}
+

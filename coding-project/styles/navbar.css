@@ -1,0 +1,104 @@
+/* common nav styles */
+.navigation-wrapper {
+    height: 75px;
+    background-color: black;
+    color: #cbcbcb;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 25px
+
+}
+
+/* Left column styles */
+
+.navigation-wrapper > .left-column > .logo img {
+    height: 35px;
+}
+
+/* Center column styles */
+
+.center-column > .navlinks-wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 5px;
+    width: 400px;
+}
+
+.navigation-wrapper > .center-column > .navlinks-wrapper > .link-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.explore {
+    color: #cea135;
+    font-weight: 700;
+}
+
+.navigation-wrapper > .center-column > .navlinks-wrapper > .link-wrapper > .spark-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+}
+
+.navigation-wrapper > .center-column > .navlinks-wrapper > .link-wrapper > .nav-link a {
+    text-decoration: none;
+    font-weight: 900;
+    color: white;
+}
+
+.navigation-wrapper > .center-column > .navlinks-wrapper > .link-wrapper > .spark-wrapper > .nav-icons i {
+    color: #cbcbcb;
+}
+
+/* Right column styles */
+.navigation-wrapper > .right-column {
+    display: flex;
+    width: 550px;
+    justify-content: flex-end
+}
+
+.navigation-wrapper > .right-column > .box-wrapper {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   width: 370px;
+   font-weight: bold;
+}
+
+
+.navigation-wrapper > .right-column > .box-wrapper > .left-box > .left-box-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    padding: 10px 10px;
+    background-color: dimgrey;
+    color: whitesmoke;
+    border: solid transparent;
+    border-radius: 4px;
+    width: 75px;
+}
+
+.create-icon i {
+color: lime;
+}
+
+.navigation-wrapper > .right-column > .box-wrapper > .icon-box i {
+    font-size: 1.5rem;
+    color: grey;
+    font-weight: bold;
+}
+
+.navigation-wrapper > .right-column > .box-wrapper > .center-box, .right-box {
+    display: flex;
+    justify-content: center;
+    padding: 10px 10px;
+    background-color: dimgrey;
+    color: whitesmoke;
+    border: solid transparent;
+    border-radius: 4px;
+    width: 75px;
+}
+
+
