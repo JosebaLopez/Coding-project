@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>M1C1-Grid</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/0f3793b933.js" crossorigin="anonymous"></script>
+
+    <style>
+        .gridOne {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+
+        .gridTwo {
+            display: grid;
+            grid-template-columns: 1fr 1fr 2fr;
+        }
+
+        .gridThree {
+            display: grid;
+            grid-template-rows: 1fr 3fr;
+            width: 500px;
+            height: 300px;
+        }
+
+        .gridThree > .child img {
+            width: 500px;
+            height: 225px;
+            object-fit: cover;
+        }
+
+        .gridFour {
+            display: grid;
+            grid-template-rows: 1fr 1fr;
+            width: 500px;
+            background-color: green;
+        }
+
+        #child-id {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+
+        .gridFive {
+            display: grid;
+            grid-template-rows: 1fr 1fr;
+            width: 500px;
+            background-color: blue;
+        }
+
+        .gridFive > #child-five-id {
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+        }
+
+        .gridFive > #child-five-id img{
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .gridSix {
+            font-family: 'Ubuntu', sans-serif;
+            display: grid;
+            grid-template-columns: 1fr 3fr;
+            width: 500px;
+            background-color: lightgrey;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <div class="gridOne">
+        <p>Hello World</p>
+        <p style="color:blue;">My Fantastic Content</p>
+    </div>
+
+    <div class="gridTwo">
+        <div style="background-color: red;" class= "child1">
+            <p>Pim</p>
+        </div>
+        <div style="background-color: blue;"class="child2">
+            <p>Pam</p>
+        </div>
+        <div style="background-color: yellow;"class="child3">
+            <p>Pum</p>
+        </div>
+    </div>
+
+    <div class="gridThree">
+        <div style="background-color: red;"class="child">
+            <p>Some text</p>
+        </div>
+        <div class="child">
+            <img src="images/background/lmr7a8E.png" alt="">
+        </div>
+    </div>
+
+    <div class="gridFour">
+        <div class="child-div">
+            <p>Main paragraph</p>
+        </div>
+        <div id="child-id">
+            <p>Left column</p>
+            <p>Right column</p>
+        </div>
+    </div>
+
+    <div class="gridFive">
+        <div class="child-div">
+            <p>Main paragraph</p>
+        </div>
+        <div id="child-five-id">
+            <img src="images/background/lmr7a8E.png" alt="">
+            <img src="images/logo/codepen-wordmark-display-inside-white@10x.png" alt="">
+        </div>
+    </div>
+
+    <div class="gridSix">
+        <i class="fa-brands fa-github"></i>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis, reprehenderit!</p>
+    </div>
+
+</body>
+</html>
