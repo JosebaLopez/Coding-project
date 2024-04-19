@@ -18,7 +18,7 @@ new_number = number + 10
 
 #Exercise5#
 
-list_index_two = list[2]
+list_index_two = list[-1]
 
 #Exercise6#
 
@@ -28,7 +28,9 @@ names_list = names.split(",")
 #Exercise7#
 
 upper_cadena = string[:6].upper()
-new_sentence = upper_cadena + " de valores"
+new_sentence = upper_cadena + string[6:]
+
+print(new_sentence)
 
 #Exercise8#
 
