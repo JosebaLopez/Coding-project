@@ -36,5 +36,5 @@ list.sort()
 
 #Exercise 9
 
-tuple = tuple + ('Biblio',)
+tuple += ('Biblio',)
 
